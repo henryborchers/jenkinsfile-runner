@@ -4,7 +4,7 @@ class JenkinsfileRunner < Formula
     head "https://github.com/jenkinsci/jenkinsfile-runner.git", tag: "1.0-beta-30"
 
     bottle :unneeded
-    depends_on "openjdk"
+    depends_on "openjdk@11"
     depends_on "maven"
 
     def install
