@@ -1,6 +1,6 @@
 class JenkinsfileRunner < Formula
     desc "A command line tool to run Jenkinsfiles"
-    homepage "https://github.com/jenkinsci/jenkinsfile-runner"
+    homepage "https://github.com/henryborchers/jenkinsfile-runner"
     head "https://github.com/jenkinsci/jenkinsfile-runner.git", tag: "1.0-beta-30"
 
     bottle :unneeded
